@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 int main()
 {
-
     srand(time(NULL));
     system("cls");
     printf("SIMPLE ROCK PAPER SCISSORS\n---------------------");
@@ -30,7 +28,6 @@ int main()
             printf("[Scissors]!\n\nYOU WON...!");
             break;
         }
-
         break;
     case '1':
         printf("You chose: [Paper]\nComputer Chose: ");
@@ -48,7 +45,6 @@ int main()
             printf("[Scissors]!\n\nYOU LOSE...!");
             break;
         }
-
         break;
     case '2':
         printf("You chose: [Scissors]\nComputer Chose: ");
@@ -58,7 +54,6 @@ int main()
         case 0:
             printf("[Rock]!\n\nYOU LOSE...!");
             break;
-
         case 1:
             printf("[Paper]!\n\nYOU WIN...!");
             break;
@@ -66,7 +61,6 @@ int main()
             printf("[Scissors]!\n\nSTALEMATE...!");
             break;
         }
-
         break;
     default:
         printf("not a valid input...");
