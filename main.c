@@ -7,7 +7,8 @@ int main()
 
     srand(time(NULL));
     system("cls");
-    printf("[0]Rock \n[1]Paper \n[2]Scissors\n");
+    printf("SIMPLE ROCK PAPER SCISSORS\n---------------------");
+    printf("\n[0]Rock \n[1]Paper \n[2]Scissors\n");
     int a = getchar();
     char r = rand() % 3;
 
