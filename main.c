@@ -7,15 +7,15 @@ int main()
     system("cls");
     printf("SIMPLE ROCK PAPER SCISSORS\n---------------------");
     printf("\n[0]Rock \n[1]Paper \n[2]Scissors\n");
-    int a = getchar();
-    char r = rand() % 3;
+    int input = getchar();
+    char rng = rand() % 3;
 
-    switch (a)
+    switch (input)
     {
     case '0':
         printf("You chose: [Rock]\nComputer Chose: ");
 
-        switch (r)
+        switch (rng)
         {
         case 0:
             printf("[Rock]!\n\nSTALEMATE...!");
@@ -32,7 +32,7 @@ int main()
     case '1':
         printf("You chose: [Paper]\nComputer Chose: ");
 
-        switch (r)
+        switch (rng)
         {
         case 0:
             printf("[Rock]!\n\nYOU WIN...!");
@@ -49,7 +49,7 @@ int main()
     case '2':
         printf("You chose: [Scissors]\nComputer Chose: ");
 
-        switch (r)
+        switch (rng)
         {
         case 0:
             printf("[Rock]!\n\nYOU LOSE...!");
